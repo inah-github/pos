@@ -1,0 +1,93 @@
+/* Custom_CSS*/
+
+/* Navigation */
+.navbar{
+	border-radius: 0px !important;
+}
+
+
+
+
+/* Login_Page */
+
+.login-panel{
+	/*height: 670px;
+	background: #000000d4;*/
+	margin-top: -60%;
+}
+
+.login-panel .login-section{
+	background-color: rgba(000,000,000,0.80);
+	height: 325px;
+	border-radius: 10px;
+	margin-top: 20%;
+}
+
+.login-panel .login-title h2{
+	text-align: center;
+	color: #fff;
+}
+
+.login-panel .login-title h4{
+	text-align: center;
+	color: #fff;
+}
+
+.login-panel a{
+	padding: 10px 50px;
+	width: 100%;
+}
+
+
+/* Customer_Type_Modal */
+.form-group {
+    margin-bottom: 5px;
+}
+
+
+/* Customer_Page*/
+
+.customer-info ul.breadcrumb{
+	padding: 15px 15px !important;
+}
+
+.add-customer{
+	margin-top: -5px;
+	padding: 10px 30px;
+}
+
+input#myInput {
+    width: 50%;
+}
+
+.customer-table th{
+	padding: 10px 5px;
+	background: #222;
+	color: #fff;
+}
+
+.customer-table th.actions{
+	text-align: center;
+}
+
+.customer-table tr:nth-child(odd){
+	/*padding: 10px;*/
+	background: #f1f1f1;
+}
+
+.customer-table tr:nth-child(even){
+	/*padding: 10px;*/
+	background: #fff;
+}
+
+.customer-table tr td{
+	padding: 10px 5px;
+}
+
+.customer-table td{
+	width: 20%;
+}
+
+.customer-table a#view, a#update, a#delete{
+	padding: 10px 15px;
+}
